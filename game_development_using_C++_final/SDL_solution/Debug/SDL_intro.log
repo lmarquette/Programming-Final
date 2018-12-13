@@ -1,16 +1,20 @@
 ﻿  main.cpp
-c:\users\l_war\documents\project_final\game_development_using_c++_final\sdl_solution\main.cpp(51): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-c:\users\l_war\documents\project_final\game_development_using_c++_final\sdl_solution\main.cpp(52): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-c:\users\l_war\documents\project_final\game_development_using_c++_final\sdl_solution\main.cpp(124): warning C4305: '=': truncation from 'double' to 'float'
-c:\users\l_war\documents\project_final\game_development_using_c++_final\sdl_solution\main.cpp(201): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-c:\users\l_war\documents\project_final\game_development_using_c++_final\sdl_solution\main.cpp(200): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-c:\users\l_war\documents\project_final\game_development_using_c++_final\sdl_solution\main.cpp(250): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\l_war\documents\project_final\game_development_using_c++_final\sdl_solution\main.cpp(251): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\l_war\documents\project_final\game_development_using_c++_final\sdl_solution\main.cpp(252): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\l_war\documents\project_final\game_development_using_c++_final\sdl_solution\main.cpp(253): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\l_war\documents\project_final\game_development_using_c++_final\sdl_solution\main.cpp(269): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\l_war\documents\project_final\game_development_using_c++_final\sdl_solution\main.cpp(270): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\l_war\documents\project_final\game_development_using_c++_final\sdl_solution\main.cpp(271): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\l_war\documents\project_final\game_development_using_c++_final\sdl_solution\main.cpp(272): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\l_war\documents\project_final\game_development_using_c++_final\sdl_solution\main.cpp(288): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  SDL_intro.vcxproj -> C:\Users\l_war\Documents\project_final\game_development_using_C++_final\SDL_solution\Debug\SDL_intro.exe
+e:\github\programming-final\game_development_using_c++_final\sdl_solution\main.cpp(51): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+e:\github\programming-final\game_development_using_c++_final\sdl_solution\main.cpp(52): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+e:\github\programming-final\game_development_using_c++_final\sdl_solution\main.cpp(124): warning C4305: '=': truncation from 'double' to 'float'
+e:\github\programming-final\game_development_using_c++_final\sdl_solution\main.cpp(201): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\github\programming-final\game_development_using_c++_final\sdl_solution\main.cpp(200): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+e:\github\programming-final\game_development_using_c++_final\sdl_solution\main.cpp(250): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+e:\github\programming-final\game_development_using_c++_final\sdl_solution\main.cpp(251): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+e:\github\programming-final\game_development_using_c++_final\sdl_solution\main.cpp(252): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+e:\github\programming-final\game_development_using_c++_final\sdl_solution\main.cpp(253): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+e:\github\programming-final\game_development_using_c++_final\sdl_solution\main.cpp(259): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+e:\github\programming-final\game_development_using_c++_final\sdl_solution\main.cpp(260): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+e:\github\programming-final\game_development_using_c++_final\sdl_solution\main.cpp(261): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+e:\github\programming-final\game_development_using_c++_final\sdl_solution\main.cpp(262): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+e:\github\programming-final\game_development_using_c++_final\sdl_solution\main.cpp(269): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+e:\github\programming-final\game_development_using_c++_final\sdl_solution\main.cpp(270): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+e:\github\programming-final\game_development_using_c++_final\sdl_solution\main.cpp(271): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+e:\github\programming-final\game_development_using_c++_final\sdl_solution\main.cpp(272): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+e:\github\programming-final\game_development_using_c++_final\sdl_solution\main.cpp(288): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  SDL_intro.vcxproj -> E:\Github\Programming-Final\game_development_using_C++_final\SDL_solution\Debug\SDL_intro.exe

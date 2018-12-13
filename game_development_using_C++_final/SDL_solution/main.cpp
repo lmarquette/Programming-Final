@@ -121,7 +121,7 @@ namespace Simulation
 		permutated_path = (int*)malloc(sizeof(int)*num_cities);
 
 		temperature = 1.0;
-		cooling_rate = .98;
+		cooling_rate = .99;
 		current_solution = 0;
 		permutated_solution = 0;
 		cost_difference = 0;
@@ -244,7 +244,7 @@ namespace Simulation
 		//clear screen with white
 		SDL_RenderClear(renderer);
 		
-		
+		//start
 		SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
 		SDL_Rect start_rect;
 		start_rect.x = city[path[0]].x;
@@ -253,17 +253,17 @@ namespace Simulation
 		start_rect.h = city[path[0]].h;
 		SDL_RenderFillRect(renderer, &start_rect);
 
-		/*
+		//end
 		SDL_SetRenderDrawColor(renderer, 0, 255, 0, 255);
 		SDL_Rect final_rect;
-		final_rect.x = city[path[num_cities]].x;
-		final_rect.y = city[path[num_cities]].y;
-		final_rect.w = city[path[num_cities]].w;
-		final_rect.h = city[path[num_cities]].h;
-		SDL_RenderFillRect(renderer, &final_rect);*/
+		final_rect.x = city[path[num_cities - 1]].x;
+		final_rect.y = city[path[num_cities - 1]].y;
+		final_rect.w = city[path[num_cities - 1]].w;
+		final_rect.h = city[path[num_cities - 1]].h;
+		SDL_RenderFillRect(renderer, &final_rect);
 
 		SDL_SetRenderDrawColor(renderer, 255, 0, 0, 255);
-		for (int i = 1; i < num_cities; i++)
+		for (int i = 1; i < num_cities - 2; i++)
 		{
 			SDL_Rect rect;
 			rect.h = city[path[i]].h;
