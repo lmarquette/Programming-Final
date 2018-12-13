@@ -41,7 +41,7 @@ namespace Simulation
 	float permutated_solution;
 	float cost_difference;
 
-	const int num_cities = 20;
+	const int num_cities = 10;
 	City city[num_cities];
 
 	void create_Random_Nodes()
@@ -225,7 +225,7 @@ namespace Simulation
 
 		Simulation::sim_annealing();
 		
-		if (temperature < 0.001)
+		if (temperature < 0.0001)
 		{
 			//simulation is over
 			//now what
@@ -244,16 +244,35 @@ namespace Simulation
 		//clear screen with white
 		SDL_RenderClear(renderer);
 		
+		
+		SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
+		SDL_Rect start_rect;
+		start_rect.x = city[path[0]].x;
+		start_rect.y = city[path[0]].y;
+		start_rect.w = city[path[0]].w;
+		start_rect.h = city[path[0]].h;
+		SDL_RenderFillRect(renderer, &start_rect);
+
+		/*
+		SDL_SetRenderDrawColor(renderer, 0, 255, 0, 255);
+		SDL_Rect final_rect;
+		final_rect.x = city[path[num_cities]].x;
+		final_rect.y = city[path[num_cities]].y;
+		final_rect.w = city[path[num_cities]].w;
+		final_rect.h = city[path[num_cities]].h;
+		SDL_RenderFillRect(renderer, &final_rect);*/
+
 		SDL_SetRenderDrawColor(renderer, 255, 0, 0, 255);
-		for (int i = 0; i < num_cities; i++)
+		for (int i = 1; i < num_cities; i++)
 		{
 			SDL_Rect rect;
-			rect.h = city[i].h;
-			rect.w = city[i].w;
-			rect.x = city[i].x;
-			rect.y = city[i].y;
+			rect.h = city[path[i]].h;
+			rect.w = city[path[i]].w;
+			rect.x = city[path[i]].x;
+			rect.y = city[path[i]].y;
 			SDL_RenderFillRect(renderer, &rect);
 		}
+
 
 		SDL_SetRenderDrawColor(renderer, 0, 0, 255, 255);
 		draw_Paths();
