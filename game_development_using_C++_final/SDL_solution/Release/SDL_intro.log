@@ -1,0 +1,20 @@
+﻿  main.cpp
+d:\coding\game_development_using_c++_final\sdl_solution\main.cpp(71): warning C4305: '=': truncation from 'double' to 'float'
+d:\coding\game_development_using_c++_final\sdl_solution\main.cpp(83): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+d:\coding\game_development_using_c++_final\sdl_solution\main.cpp(86): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+d:\coding\game_development_using_c++_final\sdl_solution\main.cpp(87): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+d:\coding\game_development_using_c++_final\sdl_solution\main.cpp(206): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+d:\coding\game_development_using_c++_final\sdl_solution\main.cpp(205): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+d:\coding\game_development_using_c++_final\sdl_solution\main.cpp(251): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\coding\game_development_using_c++_final\sdl_solution\main.cpp(252): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\coding\game_development_using_c++_final\sdl_solution\main.cpp(253): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\coding\game_development_using_c++_final\sdl_solution\main.cpp(254): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\coding\game_development_using_c++_final\sdl_solution\main.cpp(272): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\coding\game_development_using_c++_final\sdl_solution\main.cpp(273): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\coding\game_development_using_c++_final\sdl_solution\main.cpp(274): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\coding\game_development_using_c++_final\sdl_solution\main.cpp(275): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\coding\game_development_using_c++_final\sdl_solution\main.cpp(289): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating code
+  All 21 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  SDL_intro.vcxproj -> D:\Coding\game_development_using_C++_final\SDL_solution\Release\SDL_intro.exe
